@@ -1,2 +1,4 @@
-# coursera-machinelearning
+# Machine Learning by Andrew Ng
+https://www.coursera.org/learn/machine-learning
+
 This repository has been created to share all my work done in Coursera's Machine Learning Course by Andrew Ng, Stanford University. Short questions, quizs and programming exercises are here. The programming exercises have been done using Octave
