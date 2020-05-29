@@ -28,28 +28,28 @@ A vector is a matrix with one column and many rows:
 * ℝ^n refers to the set of n-dimensional vectors of real numbers.
 Run the cell below to get familiar with the commands in Octave/Matlab. Feel free to create matrices and vectors and try out different things.
 
-1. % The ; denotes we are going back to a new row. 
-
+1.
+        % The ; denotes we are going back to a new row.
         A = [1, 2, 3; 4, 5, 6; 7, 8, 9; 10, 11, 12] 
 
-2. % Initialize a vector
-
+2.
+        % Initialize a vector
         V = [1;2;3] 
 
-3. % Get the dimension of the matrix A where m = rows and n = columns
-
+3.
+        % Get the dimension of the matrix A where m = rows and n = columns
         [m,n] = size(A) 
 
-4. % You could also store it this way
-
+4.
+        % You could also store it this way
         dim_A = size(A)
 
-5. % Get the dimension of the vector v 
-
+5. 
+        % Get the dimension of the vector v 
         dim_v = size(v) 
 
-6. % Now let's index into the 2nd row 3rd column of matrix A
-
+6.
+        % Now let's index into the 2nd row 3rd column of matrix A
         A_23 = A(2,3)
 
 
@@ -115,34 +115,35 @@ In scalar division, we simply divide every element by the scalar value:
 
 Experiment below with the Octave/Matlab commands for matrix addition and scalar multiplication. Feel free to try out different commands. Try to write out your answers for each command before running the cell below.
 
-1. % Initialize matrix A and B 
+1.
+        % Initialize matrix A and B 
 
         A = [1, 2, 4; 5, 3, 2]
 
         B = [1, 3, 4; 1, 1, 1]
 
-2. % Initialize constant s 
-
+2.
+        % Initialize constant s 
         s = 2
 
-3. % See how element-wise addition works
-
+3.
+        % See how element-wise addition works
         add_AB = A + B
 
-4. % See how element-wise subtraction works
-
+4.
+        % See how element-wise subtraction works
         sub_AB = A - B
 
-5. % See how scalar multiplication works
-
+5.
+        % See how scalar multiplication works
         mult_As = A * s
 
-6. % Divide A by s
-
+6.
+        % Divide A by s
         div_As = A / s
 
-7. % What happens if we have a Matrix + scalar?
-
+7.
+        % What happens if we have a Matrix + scalar?
         add_As = A + s
 
 ### Matrix-Vector Multiplication
@@ -157,16 +158,16 @@ An `m x n matrix` multiplied by an `n x 1 vector` results in an `m x 1 vector`.
 
 Below is an example of a matrix-vector multiplication. Make sure you understand how the multiplication works. Feel free to try different matrix-vector multiplications.
 
-1. % Initialize matrix A 
-
+1.
+        % Initialize matrix A 
         A = [1, 2, 3; 4, 5, 6;7, 8, 9]
 
-2. % Initialize vector v 
-
+2. 
+        % Initialize vector v 
         v = [1; 1; 1]
 
-3. % Multiply A * v
-
+3.
+        % Multiply A * v
         Av = A * v
 
 ### Matrix-Matrix Multiplication
@@ -182,17 +183,17 @@ To multiply two matrices, the number of `columns` of the first matrix must equal
 
 For example:
 
-1. % Initialize a 3 by 2 matrix 
-
+1.
+        % Initialize a 3 by 2 matrix
         A = [1, 2; 3, 4;5, 6]
  
 
-2. % Initialize a 2 by 1 matrix 
-
+2.
+        % Initialize a 2 by 1 matrix
         B = [1; 2]
 
-3. % We expect a resulting matrix of (3 by 2)*(2 by 1) = (3 by 1)
-
+3.
+        % We expect a resulting matrix of (3 by 2)*(2 by 1) = (3 by 1)
         mult_AB = A * B
 
 * `% Make sure you understand why we got that result`
@@ -234,13 +235,13 @@ The `identity matrix`, when multiplied by any matrix of the same dimensions, res
 
 When multiplying the identity matrix after some matrix (A∗I), the square identity matrix's dimension should match the other matrix's `columns`. When multiplying the identity matrix before some other matrix (I∗A), the square identity matrix's dimension should match the other matrix's `rows`.
 
-1. % Initialize random matrices A and B
-
+1.
+        % Initialize random matrices A and B
         A = [1,2;4,5]
         B = [1,1;0,2]
 
-2. % Initialize a 2 by 2 identity matrix
-
+2.
+        % Initialize a 2 by 2 identity matrix
         I = eye(2)
 
 `% The above notation is the same as I = [1,0;0,1]`
@@ -252,20 +253,20 @@ When multiplying the identity matrix after some matrix (A∗I), the square ident
         1   0
         0   1
 
-3. % What happens when we multiply I * A ? 
-
+3. 
+        % What happens when we multiply I * A ?
         IA = I * A
 
-4. % How about A * I ? 
-
+4.
+        % How about A * I ? 
         AI = A * I
 
-5. % Compute A * B 
-
+5.
+        % Compute A * B 
         AB = A * B
 
-6. % Is it equal to B * A? 
-
+6. 
+        % Is it equal to B * A? 
         BA = B * A
 
 * `% Note that IA = AI but AB != BA`
@@ -331,20 +332,20 @@ In other words:
 
 ### *Insert Formula Here* - Will Update
 
-1. % Initialize matrix A 
-
+1.
+        % Initialize matrix A 
         A = [1,2,0;0,5,6;7,0,9]
 
-2. % Transpose A
-
+2.
+        % Transpose A
         A_trans = A'
 
-3. % Take the inverse of A 
-
+3. 
+        % Take the inverse of A 
         A_inv = inv(A)
 
-4. % What is A^(-1)*A? 
-
+4.  
+        % What is A^(-1)*A? 
         A_invA = inv(A)*A
 
 ### Run Results
