@@ -15,7 +15,7 @@ x | y
 
 For the training set given above (note that this training set may also be referenced in other questions in this quiz), what is the value of m? In the box below, please enter your answer (which should be a number between 0 and 10).
 
-Answer: 4
+`Answer:` 4
 
 #### Question 2:
 
@@ -24,7 +24,7 @@ For this question, assume that we are using the training set from Q1. Recall our
 <sub>0,</sub>θ
 <sub>1</sub>)=
 
-Answer: 0.5
+`Answer:` 0.5
 
 #### Question 3:
 
@@ -36,7 +36,7 @@ Suppose we set
 <sub></sub>H
 <sub>θ</sub>(4)?
 
-Answer: 1
+`Answer:` 1
 
 #### Question 4:
 
@@ -79,7 +79,7 @@ then by symmetry (because we do simultaneous updates to the two parameters), aft
 <sub>0</sub> = θ
 <sub>1</sub>
 
-Answers:
+`Answers:`
 * TRUE - If the learning rate is small, gradient descent ends up taking an extremely small step on each iteration, and therefor can take a long time to converge
 
 * TRUE - At a local minimum, the derivative (gradient) is zero, so gradient descent will not change the parameters.
@@ -130,7 +130,7 @@ for every training example (X^i, Y^i)
 
 * 	Our training set can be fit perfectly by a straight line, i.e., all of our training examples lie perfectly on some straight line.
 
-Answers:
+`Answers:`
 * FALSE 
 * TRUE
 * FALSE

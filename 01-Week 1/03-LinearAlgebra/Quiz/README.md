@@ -22,7 +22,7 @@ What is A - B?
     [ 1  7 ]
     [ 7  9 ]
 
-Answer: 
+`Answer:` 
 
     [ 1  -7 ]
     [-7  -7 ]
@@ -54,7 +54,7 @@ What is 2 * x?
     [ 10 ]
     [ 2 ]
 
-Answer: 
+`Answer:` 
 
     [ 16 ]
     [ 4 ]
@@ -86,7 +86,7 @@ What is u^(t)?
 
     [ 5  1  9 ]
 
-Answer:
+`Answer:`
 
     [ 5  1  9 ]
 
@@ -108,7 +108,7 @@ What is u^(t)v?
 
 `(Hint: u^(t) is a 1x3 dimensional matrix, and v can also be seen as a 3x1 matrix. The answer you can can be obtained by taking the matrix product of u^(t) and v.) Do not add brackets your answer.`
 
-Answer: 10
+`Answer:` 10
 
 #### Question 5:
 
@@ -125,7 +125,7 @@ Let A and B 3x3 (square) matrices. Which of the following must be necessarily ho
 
     If A is the 3x3 identity matrix, then A * B = B * A
 
-Answers:
+`Answers:`
 
     A + B = B + A
 

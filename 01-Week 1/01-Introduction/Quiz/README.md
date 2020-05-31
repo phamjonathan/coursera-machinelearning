@@ -12,25 +12,25 @@ B) The probability of it correctly predicting a future date's weather.
 
 C) The process of the algorithm examining a large amount of historical weather data.
 
-Answer: C 
+`Answer:` C
 
-Explanation: The task described is weather prediction, so this is Task T.
+`Explanation:` The task described is weather prediction, so this is Task T.
 
 #### Question 2:
 
 Suppose you are working on weather prediction, and you would like to predict whether or not it will be raining at 5pm tomorrow. You want to use a learning algorithm for this. Would you treat this as a classification or a regression problem?
 
-Answer: Classification
+`Answer:` Classification
 
-Explanation: Classification is appropriate when we are trying to predict one of a small number of discrete-valued outputs, such as whether it is sunny, cloudy, or rainy. 
+`Explanation:` Classification is appropriate when we are trying to predict one of a small number of discrete-valued outputs, such as whether it is sunny, cloudy, or rainy. 
 
 #### Question 3:
 
 Suppose you are working on stock market prediction, and you would like to predict the price of a particular stock tomorrow (measured in dollars). You want to use a learning algorithm for this. Would you treat this as a classification or a regression problem?
 
-Answer: Regression
+`Answer:` Regression
 
-Explanation: Regression is appropriate when we are trying to predict a continuous-valued output.
+`Explanation:` Regression is appropriate when we are trying to predict a continuous-valued output.
 
 #### Question 4: 
 
@@ -44,9 +44,9 @@ C) Examine a large collection of emails that are known to be spam email, to disc
 
 D) Take a collection of 1000 essays written on the US Economy, and find a way to automatically group these essays into a small number of groups of essays that are somehow "similar" or "related".
 
-Answer: B
+`Answer:` B
 
-Explanation: This can be addressed as a supervised learning, classification, problem, where we can learn from a labeled dataset comprising different people's genetic data, and labels telling us if they had developed diabetes.
+`Explanation:` This can be addressed as a supervised learning, classification, problem, where we can learn from a labeled dataset comprising different people's genetic data, and labels telling us if they had developed diabetes.
 
 #### Question 5:
 
@@ -60,6 +60,6 @@ C) Machine learning learns from labeled data.
 
 D) Machine learning is the science of programming computers.
 
-Answer: B
+`Answer:` B
 
-Explanation: This was the definition given by Arthur Samuel.
+`Explanation:` This was the definition given by Arthur Samuel.
